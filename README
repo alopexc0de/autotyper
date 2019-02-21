@@ -6,6 +6,8 @@ This is a simple program that takes the following arguments: `python main.py <de
 * delay - This is the amount of time in seconds to wait between typing each character. Accepts float values to make it go fast
 * filenames - All other arguments will be considered a file, and the script will attempt to read each one sequentially
 
+If you are running this on a POSIX system, you will need to be root as this will create a dummy keyboard device
+
 There is a kill switch that you can press at any time (F6), which will abort the script.
 There is also a 5 second grace period before the program will start typing.
 
