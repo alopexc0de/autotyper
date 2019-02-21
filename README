@@ -1,0 +1,12 @@
+autotyper, totally not nefarious at all.
+
+The only requirement other than stdlib is `keyboard`, which can be installed with `pip install -r requirements.txt`. It is recommended to run this in a virtualenv
+
+This is a simple program that takes the following arguments: `python main.py <delay> <filenames>`
+* delay - This is the amount of time in seconds to wait between typing each character. Accepts float values to make it go fast
+* filenames - All other arguments will be considered a file, and the script will attempt to read each one sequentially
+
+There is a kill switch that you can press at any time (F6), which will abort the script.
+There is also a 5 second grace period before the program will start typing.
+
+License: MIT
